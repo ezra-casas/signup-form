@@ -1,0 +1,91 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    border: 1px solid black;
+}
+
+body {
+    background-color: darkcyan;
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    flex: 1.3;
+    display: flex;
+    flex-direction: column;
+}
+
+.left div {
+    flex: 1;
+}
+
+.left div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left div:first-child div {
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.left div:last-child {
+    display: flex;
+    align-items: end;
+}
+
+
+.right {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.right>div {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form>div {
+    display: flex;
+
+}
+
+.input-container {
+    display: flex;
+    background-color: lightblue;
+}
+
+.input-container>div {
+    display: flex;
+    flex-direction: column;
+}
+
+form>div:last-child {
+    display: flex;
+    flex-direction: column;
+    background-color: lime;
+}
+
+#top {
+    display: flex;
+}
