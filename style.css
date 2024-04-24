@@ -124,10 +124,17 @@ form {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+
 }
 
 #top p:first-child {
     width: 60%;
+}
+
+#top p{
+
+    font-size: 1.2rem;
+    font-weight: bolder;
 }
 
 input {
@@ -141,3 +148,10 @@ input:invalid{
     border: 2px solid lightcoral;
 }
 
+a{
+  text-decoration: none;
+  color: forestgreen;
+  font-weight: bolder;
+  padding-left: 0.5rem;
+
+}
